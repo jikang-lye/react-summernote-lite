@@ -35,6 +35,13 @@ interface SummernoteLiteProps {
     fontNamesIgnoreCheck?: string[];
     addDefaultFonts?: boolean;
     fontSizes?: string[];
+    airMode?: boolean;
+    popover?: {
+        image?: [string, string[]][];
+        link?: [string, string[]][];
+        table?: [string, string[]][];
+        air?: ToolbarItem[];
+    };
     toolbar: ToolbarItem[];
     lang: Lang;
     callbacks: {
