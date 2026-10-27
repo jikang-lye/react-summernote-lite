@@ -24,6 +24,7 @@ type ToolbarItem =
   ['view', ('fullscreen' | 'codeview' | 'help')[]];
 
 interface SummernoteLiteProps {
+    container?: string;
     placeholder?: string;
     tabsize: number;
     defaultCodeValue: string;
