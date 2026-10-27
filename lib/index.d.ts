@@ -34,6 +34,7 @@ interface SummernoteLiteProps {
     dialogsInBody: boolean;
     blockquoteBreakingLevel: number;
     fontNames: FontName[];
+    fontSizes?: string[];
     toolbar: ToolbarItem[];
     lang: Lang;
     callbacks: {
